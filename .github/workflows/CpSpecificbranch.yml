@@ -1,6 +1,5 @@
 name: Delete abandoned branches
 on:
-  # Run Every minute
   schedule:
     - cron: "* * * * *"
 
