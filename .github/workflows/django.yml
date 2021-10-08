@@ -12,7 +12,7 @@ jobs:
       - name: Delete those pesky dead branches
         uses: phpdocker-io/github-actions-delete-abandoned-branches@v1
         id: delete_stuff
-        with:}
+        with:
           last_commit_age_days: 100
           ignore_branches: next-version,dont-deleteme
 
